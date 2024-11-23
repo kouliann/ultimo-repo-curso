@@ -6,7 +6,7 @@ disponible=true;*/
 
 /// objeto literal en vez de crear tres variables crear un objeto
 
-const curso={
+/*const curso={
     nombre:"programacion",
     precios: 40,
     disponible: true,
@@ -24,7 +24,7 @@ console.log(fechaInicio);
 
 
 
-/*//agregar propiedades
+//agregar propiedades
 curso.modalidad="presencial"
 console.log(curso);
 //para eliminar propiedades
@@ -34,7 +34,7 @@ console.log(curso);
 
 const{gasolina="lleno", precio, prestable}=carro;
 console.log(gasolina);
-*/
+
 
 const carro={
     
@@ -50,7 +50,14 @@ const carro={
 }
 
 const{propietario, seguro, especificaciones:{marca}}=carro;
-console.log(marca);
+console.log(marca);*/
+const caja={
+    id:1,
+    cantidad:2,
+    descrpcion:"cebolla",
+    precio:15.5,
+    iva: true
+};
 
-
-
+caja.disponible=true;
+console.log(caja);

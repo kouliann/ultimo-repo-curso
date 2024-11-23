@@ -1,6 +1,6 @@
 //funciones de declaracion o funcion expresion
 
-function suma1(a,b){
+/*function suma1(a,b){
     console.log(a+b);
 
 }
@@ -20,4 +20,8 @@ function ingresaSistema(nombre=" ", apellido=" "){
     console.log(`Bienvenido ${nombre} ${apellido} puedes ingresar al sistema`);
 }
 
-ingresaSistema("Eliannibeth", "Padrino");
+ingresaSistema("Eliannibeth", "Padrino");*/
+
+function user(nombre="homero", apellido="rojas"){
+    
+}
