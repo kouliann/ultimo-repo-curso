@@ -61,3 +61,4 @@ const caja={
 
 caja.disponible=true;
 console.log(caja);
+xd
