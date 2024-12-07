@@ -1,4 +1,4 @@
-.title{
+/*.title{
     color: rgb(177, 126, 224);
     font-size: 64px;
 }
@@ -9,7 +9,7 @@
 
 .bgblue{
     background-color: rgb(32, 32, 90);
-}
+}*/
 
 .boton{
     background-color: rgb(194, 105, 90);
@@ -17,4 +17,19 @@
     width: 150px;
     height: 150px;
     font-size: 20px;
+}
+
+.navegacion{
+    display: inline-block;
+    background-color: maroon;
+    color: aliceblue;
+    font-size: 26px;
+    text-decoration: none;
+    width: 100%;
+    height: 200px;
+}
+
+a, a:link{
+    text-decoration: none;
+    color: aliceblue;
 }
