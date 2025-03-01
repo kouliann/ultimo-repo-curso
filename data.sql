@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-02-2025 a las 19:17:58
+-- Tiempo de generación: 01-03-2025 a las 03:28:00
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `clinicas` (
   `ID_clinica` int(5) NOT NULL,
-  `nombre` int(100) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
   `Direccion` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci COMMENT='Clinicas en SJM';
 
@@ -38,11 +38,11 @@ CREATE TABLE `clinicas` (
 --
 
 INSERT INTO `clinicas` (`ID_clinica`, `nombre`, `Direccion`) VALUES
-(1, 0, 'Av. Miranda'),
-(2, 0, 'Av. Bolivar'),
-(3, 0, 'Av. Guaiquera'),
-(4, 0, 'Calle Salias'),
-(5, 0, 'Av. Bolivar');
+(1, 'Cruz Roja', 'Av. Miranda'),
+(2, 'Fundacliu', 'Av. Bolivar'),
+(3, 'Policlinica', 'Av. Guaiquera'),
+(4, 'Fundacliu', 'Calle Salias'),
+(5, 'Clinica Cedeño', 'Av. Bolivar');
 
 -- --------------------------------------------------------
 
@@ -64,11 +64,10 @@ CREATE TABLE `enfermeros` (
 
 INSERT INTO `enfermeros` (`ID_enfermero`, `nombre`, `apellido`, `jornada`, `ID_clinica`) VALUES
 (1, 'Jennifer', 'Medrano', 'Lunes-Miercoles', 5),
-(2, 'Jennifer', 'Medrano', 'Lunes-Miercoles', 5),
-(3, 'Natalia', 'Jimenez', 'Viernes-Domingos', 3),
-(4, 'Jose', 'Garcia', 'Miercoles-Viernes', 4),
-(5, 'Alonso', 'Pacheco', 'Lunes-Jueves', 2),
-(6, 'Sofia', 'Luna', 'Martes-Sabados', 3);
+(2, 'Natalia', 'Jimenez', 'Viernes-Domingos', 3),
+(3, 'Jose', 'Garcia', 'Miercoles-Viernes', 4),
+(4, 'Alonso', 'Pacheco', 'Lunes-Jueves', 2),
+(5, 'Sofia', 'Luna', 'Martes-Sabados', 3);
 
 -- --------------------------------------------------------
 
